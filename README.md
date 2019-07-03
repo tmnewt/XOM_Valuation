@@ -1,10 +1,11 @@
 # XOM_Valuation
-Valuation project for ExxonMobil
+Availalbe is a Valuation project for ExxonMobil that I completed for one of my graduate courses.
 
-This file contains a macro which helps in the valuation model. The excel file is essentially useless and hilariously inaccurate without it.  
+# A note on Excel files and Macros
+Excel files with the extenstion **xlsm** are macro enabled workbooks. Macros can include malicous code [(and more than ever this fact is exploited)](https://www.fortinet.com/blog/threat-research/microsoft-excel-files-increasingly-used-to-spread-malware.html). Please note that the main file of this project uses Macros. If you do not wish to enable macros, I have provided an **xlsx** version of the same file which does not conatin any Macros. Please be aware the **xlsx** version can produce highly inaccurate results because it does not contain the macro to rebalance.
 
-## Getting Started:
-Before downloading the file you will need to set up a trusted file location on your computer.
+## Getting the Macro Version to work:
+Before downloading the file **XOM Project Macro Version** you will need to set up a trusted file location on your computer.
 
 1. Open a blank excel file.
 2. Select **File**, then at the bottom (you may have to scroll) select **Options**. A window will open up.
@@ -14,6 +15,6 @@ Before downloading the file you will need to set up a trusted file location on y
 6) Select **Browse...** and select the file location you'd like to use (like your desktop).
 7) Select **Ok**.
 
-Now download the file and move it to this trusted location. It should open.
+Now download the file and move it to this trusted location.
 
 When you are done and want to remove the trusted file location, repeat steps 1 to 4, then click on the path under user locations and then select **remove**.
